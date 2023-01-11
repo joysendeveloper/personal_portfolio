@@ -1,0 +1,59 @@
+@media screen and (max-width: 1120px) {
+  section {
+    padding: 140px 6%;
+  }
+  nav {
+    padding: 22px 6%;
+  }
+  .sticky {
+    padding: 10px 6%;
+  }
+  #menu-icon {
+    display: block;
+  }
+  .navbar {
+    display: block;
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    width: 100%;
+    background: var(--other-color);
+    color: var(--text-color);
+    overflow: hidden;
+    padding: 20px 40px;
+  }
+  .openNavBar {
+    right: 0px;
+    display: block;
+  }
+  .navbar li {
+    margin: 1rem 30px;
+  }
+  .navbar li a {
+    display: block;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  :root {
+    --h1-font: 4.2rem;
+    --h2-font: 2.9rem;
+    --p-font: 1rem;
+  }
+  section {
+    padding: 80px 6%;
+  }
+  .home {
+    height: 85vh;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .about-img {
+    text-align: center;
+  }
+}
